@@ -1,5 +1,5 @@
 # memo-git
-- La prise de note sur l'apprentissage de git.
+La prise de note sur l'apprentissage de git.
 - Pour télécharger l'outil Git-it, cliquer sur releases pour trouver le .zip à installer selon le system de l'ordinateur.
 - Créer un nouveau dossier : mkdir <FOLDERNAME>
 - Naviguer dans un dossier existant : cd <FOLDERNAME>
@@ -10,5 +10,7 @@
 - Ajouter les modifications d'un fichier à soumettre : git add <FILENAME>
 - Pour ajouter toutes les modifications d'un seul coup : git add .
 - Pour soumettre les modifications que vous avez ajoutées avec un court message décrivant les modifications : git commit -m "your commit message"
+- Créer une branche main : git branch -M main
+- Déposer sur un repository existant: git push -u origin main
 - Ajoutez votre nom d'utilisateur GitHub à votre configuration Git: git config --global user.username <USerNamE> (pas besoin de noter <> dans la commande lors d'ajouter le nom d'utilisateur
 - Vous pouvez vérifier ce que vous avez configuré dans Git en tapant: git config --global user.username
