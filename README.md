@@ -22,6 +22,7 @@ Les commandes git :
 - Pour soumettre les modifications que vous avez ajoutées avec un court message décrivant les modifications : git commit -m "your commit message"
 - Créer une branche main : git branch -M main
 - Déposer sur un repository existant: git push -u origin main
+- Pour supprimer un fichier déposé sur git : git rm <FILENAME>
 - Ajoutez le nom d'utilisateur à la configuration Git: git config --global user.username <USerNamE> (pas besoin de noter <> dans la commande lors d'ajout du nom d'utilisateur
 - Vérifier le nom d'utilisateur configuré dans Git en tapant: git config --global user.username
 - Voir les différents commits effectués dans le répertoire dans l'ordre chronologique inverse : git log
